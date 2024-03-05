@@ -1,0 +1,8 @@
+const form=document.querySelector(".formulario-fale-conosco")
+
+function cliqueiNobotão() {
+    
+    alert("você clicou no botão")
+   form.style.left = "50%"
+   form.style.transform = "translateX(-50%)"
+}
